@@ -1,0 +1,142 @@
+
+/* .back-btn {
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  } */
+
+  .fa-arrow-left{
+    size: 20px;
+    /* background-color: #ff6f61; */
+    color: #ff6f61;
+  }
+  
+  .back-btn i {
+    font-size: 30px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-actions button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.category-menu ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.category-menu ul li {
+    margin: 0 20px;
+}
+
+.category-menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.product-list {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #ff6f61;
+}
+
+.product button {
+    padding: 10px;
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h4 {
+    margin-top: 0;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.btn-danger{
+    background-color: #ff6f61;
+    color: white;
+    float: right;
+}
